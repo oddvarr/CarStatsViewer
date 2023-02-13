@@ -29,6 +29,7 @@
     <string name="main_button_trip_summary">Tur oppsummering</string>
     <string name="main_button_hide_speed">Skjul hastighet</string>
     <string name="main_button_show_speed">Vis hastighet</string>
+    <string name="main_secondary_axis">Andre akse: %s</string>
 
     <!-- SummaryActivity -->
     <string name="summary_title">Tur oppsummering</string>
@@ -43,6 +44,7 @@
     <string name="summary_travel_time">Reisetid</string>
     <string name="summary_charged_energy">Energi ladet</string>
     <string name="summary_charge_time">Ladetid</string>
+    <string name="summary_charge_ambient_temp">Omgivelses temperatur</string>
 
     <!-- SettingsActivity -->
     <string name="settings_title">Innstillinger</string>
@@ -50,18 +52,33 @@
     <string name="settings_button_quit">Avslutt app</string>
     <string name="settings_notifications">Varslinger</string>
     <string name="settings_consumption_unit">Wh/km som forbruksenhet</string>
+    <string name="settings_distance_unit">Miles som forbruksenhet</string>
     <string name="settings_debug">Feilsøk informasjon</string>
     <string name="settings_experimental_layout">Vis eksperimentell visning</string>
     <string name="settings_consumption_plot">  Forbruksvisning</string>
     <string name="settings_charge_plot">  Ladevisning</string>
+    <string name="settings_about">  Om Car Stats Viewer</string>
     <string name="settings_plot_secondary_color">Grå som sekundær farge</string>
-    <string name="settings_plot_state_of_charge_dimension">Eksperimentellakse for ladetilstand</string>
+    <string name="settings_plot_state_of_charge_dimension">Eksperimentell akse for ladetilstand</string>
     <string name="settings_consumption_plot_single_motor">Enkel motor modell</string>
     <string name="settings_visible_gages">Vis effektgraf</string>
     <string name="settings_consumption_plot_speed">Vis hastighetsgraf</string>
     <string name="settings_sub_title_settings">Innstillinger:</string>
     <string name="settings_sub_title_current_cons_plot">Nåværende forbruksgraf:</string>
     <string name="settings_sub_title_last_charge_plot">Siste ladekurver:</string>
+
+    <!-- AboutActivity -->
+    <string name="about_title">Om Car Stats Viewer</string>
+    <string name="about_section_about">Om Car Stats Viewer:</string>
+    <string name="about_support">Støtt utviklingen</string>
+    <string name="about_support_description">Se GitHub-repository for å lære mer om hvordan du kan støtte utviklingen av appen.</string>
+    <string name="about_contributors">Bidragsytere</string>
+    <string name="about_section_feedback">Tilbakemelding:</string>
+    <string name="about_section_misc">Forskjellige:</string>
+    <string name="about_github_issues_description">Dette er den beste plassen for feilrapportering og fremtidige ønsker. Vennligst les om eksisterende problemer før du åpner en ny.</string>
+    <string name="about_polestar_forum_description">Diskusjoner om Car Stats Viewer i det internasjonale forumet.</string>
+    <string name="about_polestar_fans_description">Diskusjoner om Car Stats Viewer i det tyste forumet.</string>
+    <string name="about_third_party_licenses">Lisenser</string>
 
     <!-- Quit Dialog -->
     <string name="quit_dialog_title">Avslutt app?</string>
